@@ -47,3 +47,10 @@ footer{
 #menu a:hover{
     background-color: #44b874;
 }
+
+img{
+    width: 50px;
+    height: 50px;
+    padding-left: 100px;
+    padding-top: 15px;
+}
