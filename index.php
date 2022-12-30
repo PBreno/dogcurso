@@ -13,6 +13,18 @@ elseif ($pagina == 'alunos') {
     # code...
     include 'views/alunos.php';
 }
+elseif ($pagina == 'inserir_curso') {
+    # code...
+    include 'views/inserir_curso.php';
+}
+elseif ($pagina == 'inserir_aluno') {
+    # code...
+    include 'views/inserir_aluno.php';
+}
+elseif ($pagina == 'inserir_matricula') {
+    # code...
+    include 'views/inserir_matricula.php';
+}
 elseif ($pagina == 'matriculas') {
 # code...
     include 'views/matriculas.php';
