@@ -6,12 +6,12 @@
 <form action="processa_curso.php" method="post">
     <br>
     <label for="">Curso</label><br>
-    <input type="text" name="nome_curso" placeholder = "Insira o nome do curso">
+    <input  class="form-control" type="text" name="nome_curso" placeholder = "Insira o nome do curso">
     <br><br>
     <label for=""> Carga horária</label> <br>
-    <input type="text" name="carga_horaria" placeholder = "Insira a carga horária">
+    <input class="form-control" type="text" name="carga_horaria" placeholder = "Insira a carga horária">
     <br><br>
-    <input type="submit" value="Inserir curso">
+    <input type="submit" class="btn btn-sucess" value="Inserir curso">
 </form>
 
 <?php } else { ?>
@@ -21,17 +21,17 @@
             
             <h1>Editar curso</h1>
             <form action="edita_curso.php" method="post">
-                <input type="hidden" name="id_curso" value="<?php echo $linha['id_curso']; ?>">
+                <input class="form-control" type="hidden" name="id_curso" value="<?php echo $linha['id_curso']; ?>">
                 <br>
                 <label for="">Curso</label><br>
-                <input type="text" name="nome_curso" placeholder = "Insira o nome do curso" 
+                <input class="form-control" type="text" name="nome_curso" placeholder = "Insira o nome do curso" 
                                     value="<?php echo $linha['nome_curso']; ?>">
                 <br><br>
                 <label for=""> Carga horária</label> <br>
-                <input type="text" name="carga_horaria" placeholder = "Insira a carga horária"
+                <input class="form-control" type="text" name="carga_horaria" placeholder = "Insira a carga horária"
                                     value="<?php echo $linha['carga_horaria']; ?>">
                 <br><br>
-                <input type="submit" value="Editar curso">
+                <input type="submit" class="btn btn-sucess" value="Editar curso">
             </form>
 
         <?php } ?>

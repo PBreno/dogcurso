@@ -1,5 +1,6 @@
-<a href="?pagina=inserir_matricula"> Inserir Matricula</a>
-<table style = "border: 1px solid #ccc; width:100%">
+<a class= "btn btn-success" href="?pagina=inserir_matricula"> Inserir Matricula</a>
+<br><br>
+<table class="table">
     <tr>
         <th>ID</th>
         <th> Nome aluno</th>
@@ -11,7 +12,7 @@
         while ($linha = mysqli_fetch_array($consulta_matriculas)) {
             # code...
             echo '<tr><td>'.$linha['id_alunos_cursos'].'</td>';
-            echo '<tr><td>'.$linha['nome_aluno'].'</td>';
+            echo '<td>'.$linha['nome_aluno'].'</td>';
             echo '<td>'.$linha['nome_curso'].'</td>';
     ?>
     <td>

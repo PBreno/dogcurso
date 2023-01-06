@@ -1,5 +1,6 @@
-<a href="?pagina=inserir_curso"> Inserir Curso</a>
-<table style = "border: 1px solid #ccc; width:100%">
+<a class= "btn btn-success" href="?pagina=inserir_curso"> Inserir Curso</a>
+<br><br>
+<table class="table">
     <tr>
         <th> ID</th>
         <th> Nome Curso</th>
@@ -12,7 +13,7 @@
         while ($linha = mysqli_fetch_array($consulta_cursos)) {
             # code...
             echo '<tr><td>'.$linha['id_curso'].'</td>';
-            echo '<tr><td>'.$linha['nome_curso'].'</td>';
+            echo '<td>'.$linha['nome_curso'].'</td>';
             echo '<td>'.$linha['carga_horaria'].'</td>';
     ?>
     <td><a href = "?pagina=inserir_curso&editar=<?php echo $linha['id_curso'];?>"> Editar</a></td> 

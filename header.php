@@ -3,7 +3,8 @@
 <head>
     <title>Cursos PHP&Mysql</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/estilo.css">    
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="css/estilo.css">        
 </head>
 
 <body>

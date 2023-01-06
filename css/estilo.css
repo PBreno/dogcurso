@@ -22,10 +22,10 @@ footer{
 }
 
 /* class */
-.container{ 
+/* .container{ 
     margin: 0 auto; 
     width: 960px;
-}
+} */
 
 /* id */
 #conteudo{ 
@@ -39,7 +39,7 @@ footer{
 
 #menu a{
     text-decoration: none;
-    padding: 45px 50px;
+    padding: 20px 10px;
     color: #e3e3e3;
     text-shadow: 1px 1px 1px #111;
 }
@@ -48,9 +48,9 @@ footer{
     background-color: #44b874;
 }
 
-img{
+/* img{
     width: 50px;
     height: 50px;
     padding-left: 100px;
     padding-top: 15px;
-}
+} */
