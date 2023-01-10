@@ -7,9 +7,9 @@ body{
 }
 
 header{ 
-    height: 90px; 
+    height: 80px; 
     background-color: #262626; 
-    padding: 10px 0;
+  
 }
 
 footer{ 
@@ -22,35 +22,36 @@ footer{
 }
 
 /* class */
-/* .container{ 
+ .container{ 
     margin: 0 auto; 
     width: 960px;
-} */
+} 
 
 /* id */
-#conteudo{ 
-    padding: 50px 0;
+ #conteudo{ 
+    padding: 100px 0;
 }
 
 #menu {
     float: right;
-    padding: 35px 0;
+    padding: 25px;
 }
 
 #menu a{
     text-decoration: none;
-    padding: 20px 10px;
+    padding: 35px 10px;
     color: #e3e3e3;
-    text-shadow: 1px 1px 1px #111;
+  
 }
 
 #menu a:hover{
     background-color: #44b874;
 }
-
-/* img{
-    width: 50px;
-    height: 50px;
+ 
+img{
+    width: 180px;
+    height: 200px;
     padding-left: 100px;
     padding-top: 15px;
-} */
+} 
+ 

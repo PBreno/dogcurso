@@ -1,9 +1,16 @@
 <?php
-
+session_start();
 include 'database.php';
 include 'header.php';
 
-$pagina = isset($_GET['pagina']) ? $_GET['pagina'] : 'home';
+
+
+if (isset($_SESSION['login'])) {
+    
+    $pagina = isset($_GET['pagina']) ? $_GET['pagina'] : 'cursos';
+}else {
+    $pagina = 'home';
+}
 
 switch ($pagina) {
     case 'cursos':

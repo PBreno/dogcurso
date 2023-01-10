@@ -1,9 +1,9 @@
 <h1>Inserir nova Matricula</h1>
 
-<form action="processa_matricula.php" method="post">
+<form  action="processa_matricula.php" method="post">
     <br>
     <p>Selecione O aluno</p>
-    <select name="escolha_aluno">
+    <select class="form-control" name="escolha_aluno">
         <option > Selecione um aluno</option>
         <?php
             while ($linha = mysqli_fetch_array($consulta_alunos)) {
@@ -15,7 +15,7 @@
     </select> 
     <br><br>
     <p>Selecione O curso</p>
-    <select name="escolha_curso">
+    <select class="form-control"  name="escolha_curso">
 
         <option > Selecione um curso</option>
         <?php
@@ -28,6 +28,6 @@
     </select> 
     <br><br>
     
-    <input type="submit" value="Matricular aluino no curso">
+    <input type="submit" class="btn btn-success" value="Matricular aluno no curso">
 
 </form>
